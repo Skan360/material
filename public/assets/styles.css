@@ -1,0 +1,10 @@
+.pointer{
+	cursor: pointer;
+}
+
+.navbar-nav .active{
+	border-bottom: 3px solid orange;
+}
+/*/.navbar-default{
+	background-color: this.template.background_color;
+}*/
