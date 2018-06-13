@@ -4,7 +4,7 @@ var bcrypt = require('bcrypt-nodejs');
 var fs = require('fs');
 var path = require('path');
 var a;
-var dateTime = require('node-datetime');
+//var dateTime = require('node-datetime');
 //modelos
 var User = require('../models/user');
 var Template = require('../models/template');
@@ -44,14 +44,14 @@ function updateCatalogProfesorsCommit(req,res){
 			if(assignment){//si encontro una concordancia con el id que se le envió
 				assignment_name= assignment.assignment_name;
 				clave_assignment= assignment.clave_assignment;
-				var dt = dateTime.create();
+				/*var dt = dateTime.create();
 				var fecha_creacion = dt.format('d-m-Y H:M:S');
 				var mes = dt.format('m');
 				if(mes=='01'||mes=='02'||mes=='03'||mes=='04'||mes=='05'){
 					var semestre = dt.format('Y')+'-1';
 				}else{
 					var semestre = dt.format('Y')+'-2';
-				}
+				}*/
 				
 				for (var i = jsonArrayObj.length - 1; i >= 0; i--) {
 					//if del curp para ver si ya existe el usuario en el historial
