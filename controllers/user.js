@@ -153,7 +153,7 @@ function saveUser(req,res){
 		template.style_body.fontFamily = "Helvetica";
 		template.logos.fi = "fi1.png";
 		template.logos.unam = "unam1.png";
-		template.logos.assig = "mat2.jpg";
+		template.logos.assig = "pi2.jpg";
 		template.assignment_name=params.assignment_name;
 		//assignment
 		assignment.assignment_name=params.assignment_name;
